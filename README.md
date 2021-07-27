@@ -1,5 +1,5 @@
 # Formulário Time de Suporte
-Meu primeiro formulário responsivo.
+Meu primeiro formulário responsivo, com ações usando JavaScript.
 
 # Projeto Completo
 
