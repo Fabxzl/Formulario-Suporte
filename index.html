@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    
+    <div class="main">
+        <div class="content">
+            <div class="color">
+                <label id="red" onclick="red()"></label>
+                <label id="green" onclick="green()"></label>
+            </div>
+    
+            <div class="left">
+                <div class="img">
+                    <i class="fa fa-ambulance"></i>
+                </div>
+    
+                <p id="title">Time de Suporte</p>
+                <p id="desc">A qualquer momento<br>Em qualquer lugar</p>
+    
+                <div class="support">
+                    <i class="fa fa-globe" aria-hidden="true"></i>
+                    <p id="mail">visite nosso site: timedesuporte.com</p>
+                </div>
+            </div>
+    
+            <div class="login">
+                <form>
+                    <p id="heading1">Entrar</p>
+                    <input type="email" name="email" placeholder="Endereço de e-mail" data-min-length="3">
+                    <input type="password" name="password" placeholder="Senha">
+                    <div class="bottom">
+                        <a href="#">Esqueceu a senha?</a>
+                        <input type="submit" id="btn-submit" value="Enviar">
+                    </div>
+                    <p onclick="signup()" id="button3">Cadastro</p>
+                </form>
+            </div>
+    
+           <div class="cadastro">
+               
+              <form>
+                  <i class="fa fa-angle-left" aria-hidden="true" onclick="back()"></i>
+                  <p id="heading2">Cadastramento</p>
+                  <input type="email" name="email" placeholder="Endereço de e-mail" id="email2">
+                  <input type="password" name="password" id="password" placeholder="Senha">
+                  <input type="password" name="confirm-password" placeholder="Confirme a senha">
+    
+                  <div class="bottom">
+                      <input type="submit" id="btn-submit-cadastro" value="Cadastrar">
+                  </div>
+              </form>
+    
+           </div>
+    
+        </div>
+    </div>
+    
+    
+    
+    <script src="js/scripts.js"></script>
+</body>
+</html>

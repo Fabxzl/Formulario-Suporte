@@ -1,0 +1,184 @@
+@media (max-width: 1800px)
+{
+    .content
+    {
+        left: auto;
+    } 
+}
+
+@media (max-width: 780px)
+{
+    .main 
+    {
+        height: 75vw;
+    }
+    .content
+    {
+        width: 375px;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .login
+    {
+        width: 95%;
+    }
+    .left
+    {
+        display: none;
+    }
+
+    #heading1
+    {
+        text-align: center;
+        position: initial;
+    }
+    .color
+    {
+        width: 15%;
+    }
+
+    .cadastro
+    {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 450px)
+{
+
+    .main 
+    {
+        height: 50vh;
+    }
+
+}
+
+@media (max-width: 400px)
+{
+
+    .main
+    {
+        height: 100vh;
+    }
+    .content
+    {
+        height: 108vh;
+    } 
+
+    .color
+    {
+        top: 45px;
+        width: 15%;
+    }
+
+    .login
+    {
+        height: 100vh;
+    }
+
+    .cadastro
+    {
+        height: 100vh;
+    }
+
+    .fa
+    {
+        position: absolute;
+        top: 239px;
+        left: -40px;
+    }
+
+    #heading2
+    {
+        top: 255px;
+    }
+
+   #button3
+   {
+       bottom:180px;
+   }
+
+}
+
+@media (max-width: 350px)
+
+{
+    .main
+    {
+        height: 100vh;
+    }
+    .color
+    {
+        top: 60px;
+        width: 15%;
+        left: 30px;
+    }
+
+    .login
+    {
+        height: 100vh;
+    }
+    .cadastro
+    {
+        height: 100vh;
+    }
+}
+
+
+@media (max-width: 300px)
+
+{
+    .main
+    {
+        height: 100vh;
+    }
+    .color
+    {
+        top: 60px;
+        width: 15%;
+        left: 30px;
+    }
+
+    .login
+    {
+        height: 100vh;
+    }
+    .cadastro
+    {
+        height: 110vh;
+        width: 95%;
+    }
+}
+
+/* height */
+
+
+@media (max-height: 700px)
+{
+
+    .color
+    {
+        left: 50px;
+    }
+    #button3
+   {
+       bottom:85px;
+   }
+
+   #heading2
+   {
+       top: 125px;
+   }
+
+   .fa-angle-left:before
+   {
+       top: -90px;
+   }
+}
+
+@media (max-height: px)
+{
+    
+}
